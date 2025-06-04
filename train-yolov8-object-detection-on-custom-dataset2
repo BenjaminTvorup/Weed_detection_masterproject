@@ -18,6 +18,7 @@ train_results = model.train(
     device=device,
 )
 
+
 # Extract loss values from the training results
 train_losses = train_results['train']['loss']
 val_losses = train_results['val']['loss']
