@@ -8,6 +8,7 @@ import os
 from tqdm import tqdm
 
 
+
 def parse_arguments():
     parser = argparse.ArgumentParser(description='create a combined visualization for each annotation')
     parser.add_argument('--bboxes', type=str, default='../data/bboxes',
