@@ -9,6 +9,7 @@ from map_dataset import map_dataset
 
 
 
+
 def parse_arguments():
     parser = argparse.ArgumentParser(description='download and extract all dataset images and annotations with '
                                                  'optional mapping to all pre-defined dataset variants')
