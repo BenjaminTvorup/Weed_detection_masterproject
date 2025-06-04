@@ -3,5 +3,6 @@
 train: C:\Users\Benjamin Christensen\Desktop\Masterprojekt\Deep_learning\cropandweed-dataset-main\data\train  # Path to training images
 val: C:\Users\Benjamin Christensen\Desktop\Masterprojekt\Deep_learning\cropandweed-dataset-main\data\valid      # Path to validation images
 
+
 nc: 2  # Number of classes
 names: ['crop', 'weed']  # List of class names
